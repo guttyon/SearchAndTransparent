@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme.
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    -->
+    <style name="AppBaseTheme2" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar.TranslucentDecor">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme2">
+    </style>
+
+    <style name="AppTheme.ActionBar" />
+
+    <style name="AppTheme.ActionBar.Overlay">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    </style>
+
+    <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+</resources>
